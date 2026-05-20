@@ -1,1 +1,16 @@
-For this end-to-end project was my first data science project and my first project to learn basic data science. I used a dataset from Kaggle which I linked in this project. My goal was to create an applet that predicts used-car prices using a model I build on google colab utilizing Python. After cleaning the data, visulaizing it, and observing some basic trends, I started traning a model using linear regression. I was able to get the model to about 76% MSE value and an R^2 value of about 10,000 (after square root). Thus, my first model was able to explain about 76% of the variances in used car prices and was off by about $10,000. The applet allows the user to input car features and the model predicts the price of the used car. For further improvement of the model I was looking into using gradient boosting or Random Forrest Regressor models.
+# Used Car Price Prediction Applet
+
+An end-to-end data science project built to predict used car prices. This project covers data cleaning, visualization, and baseline machine learning modeling.
+
+## 📊 The Dataset & Goal
+* **Source:** Dataset sourced from Kaggle (included as `used_cars.csv`).
+* **Objective:** Build a predictive model and an interactive applet allowing users to input car features and receive an instant price estimation.
+
+## 🤖 Modeling & Results
+* **Approach:** Started with a baseline **Linear Regression** model using Python in Google Colab.
+* **Performance:** The baseline model achieved an **$R^2$ score of 0.76** (explaining 76% of price variance) with a **Root Mean Squared Error (RMSE) of ~$10,000**.
+
+## 🚀 Future Improvements
+To improve accuracy and reduce the $10,000 margin of error, next steps include:
+1. Feature engineering on car conditions and locations.
+2. Training more robust models, such as **Random Forest Regressor** and **Gradient Boosting (XGBoost)**.
