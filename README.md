@@ -1,1 +1,1 @@
-# projects
+For this end-to-end project was my first data science project and my first project to learn basic data science. My goal was to create an applet that predicts used-car prices using a model I build on google colab utilizing Python. After cleaning the data, visulaizing it, and observing some basic trends, I started traning a model using linear regression. I was able to get the model to about 7
